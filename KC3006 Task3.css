@@ -1,0 +1,370 @@
+body{
+    margin-left: 0;
+    background-color: #1D3557;
+    min-height: 100vh;
+}
+
+h1,h2,h3,a {
+    font-family: Helvetica, Arial, sans-serif;
+    color: #ffd60a;
+    margin-bottom: 0;
+    text-shadow: 0.04em 0.02em  #000000;
+
+}
+
+
+ul {
+    list-style-type: none;
+}
+
+p {
+    color: #ffffff;
+    font-family: 'Garamond', 'Baskerville', 'Baskerville Old Face', 'Hoefler Text', 'Times New Roman', 'serif.';
+    margin-top: 0;
+}
+
+nav {
+    display: flex;
+    top: 0;
+    height: 3.5em;
+    width: 100%;
+    margin: 0;
+    position: fixed;
+    background-color: #555B6E;
+    align-content: center;
+    
+}
+
+nav a{
+    padding: 0.5em;
+    margin-right: 0.7vw;
+    color: FFD60A;
+    text-decoration: none;
+    font-family: 'Helvetica Neue', Helvetica, Arial, 'sans-serif.';
+    font-size: 25px;
+    text-shadow: 0.09em 0.04em  #000000;
+}
+
+nav a:hover{
+    background-color: #ffd60a;
+    color: #555b6e;
+}
+
+nav img{
+    margin-top: 0;
+    margin-left: 0;
+    margin-right: 0;
+    padding: 0;
+    height: 1.5em;   
+    width: auto;
+}
+#nav_img:hover{
+    background-color: #555B6E;
+    
+}
+
+.banner {
+    display: flex;
+    justify-content: center;
+    padding: 0%;
+    margin: 0;
+    background-image: url("fly-d-zAhAUSdRLJ8-unsplash.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    white-space: nowrap;
+
+}
+
+
+.banner h1{
+    padding-top: 0.5em;
+    display: flex;
+    justify-content: center;
+    color: #ffd60a;
+    font-family: 'Helvetica Neue', Helvetica, Arial, 'sans-serif.';
+    font-size: 230px;
+    text-shadow: 0.04em 0.02em  #000000;
+    
+} 
+
+
+
+
+
+main h1{
+    font-size: 120px;
+    color: #ffd60a;
+}
+
+main h2 {
+    font-size: 60px;
+    color: #ffd60a;
+}
+
+main h3{
+    font-size: 40px;
+    color: #ffd60a;
+}
+
+main p{
+    font-size: 35px;
+    color: #ffffff;
+}
+
+#Alternate {
+    margin-left: 1em;
+
+}
+
+
+
+
+#CySec{
+    display: grid;
+    grid-template-columns: auto auto;
+    width: 99vw;
+    margin-top: 7em;
+}
+
+#CySec_img{
+    grid-column: 2;
+    grid-row: 1/ span 2;
+    height: 20em;
+    width: auto;
+    margin-right: 0.5vw;
+    border: 1vh solid #ddd;
+    border-radius: 4vh;
+}
+
+
+
+#CySec h2{
+    grid-column: 1;
+    grid-row: 1;
+    
+}
+#CySec p{
+    grid-row: 2;
+    grid-column-start: 1 ;
+    grid-column-end: 2;
+    
+}
+
+
+
+
+#CySec{
+    grid-row: 1;
+}
+
+#Encryption{
+    display: grid;
+    grid-template-columns: auto auto;
+    width: 99vw;
+
+}
+
+#Encryption_img{
+    grid-column: 1;
+    grid-row: 1/ span 2;
+    margin-top: 2em;
+    height: 20em;
+    width: auto;
+    margin-right: 0.5vw;
+    border: 1vh solid #ddd;
+    border-radius: 4vh;
+}
+
+
+
+#Encryption h2{
+    grid-column: 2;
+    grid-row: 1;
+}
+#Encryption p{
+    grid-row: 2;
+    grid-column-start: 2 ;
+    grid-column-end: 3;
+    
+}
+
+
+
+#Malware{
+    display: grid;
+    grid-template-columns: auto auto;
+    width: 99vw;
+
+}
+
+#Malware_img{
+    grid-column: 2;
+    grid-row: 1/ span 2;
+    height: 20em;
+    width: auto;
+    margin-right: 0.5vw;
+    border: 1vh solid #ddd;
+    border-radius: 4vh;
+}
+
+#Malware h2{
+    grid-column: 1;
+    grid-row: 1;
+}
+#Malware p{
+    grid-row: 2;
+    grid-column-start: 1 ;
+    grid-column-end: 2;
+    
+}
+#Laws{
+    display: grid;
+    grid-template-columns: auto auto;
+    width: 99vw;
+
+}
+
+#Laws_img{
+    grid-column: 1;
+    grid-row: 1/ span 2;
+    margin-top: 0;
+    height: 20em;
+    width: auto;
+    margin-right: 0.5em;
+    border: 1vh solid #ddd;
+    border-radius: 4vh;
+}
+
+
+
+#Laws h2{
+    grid-column: 2;
+    grid-row: 1;
+}
+#Laws p{
+    grid-row: 2;
+    grid-column-start: 2 ;
+    grid-column-end: 3;
+    
+}
+
+
+  
+.Continuous {
+    display: grid;
+    grid-template-columns: 20vw 1fr;
+    grid-template-rows:  1fr;
+    min-width: 0px;
+      
+}
+
+.Contents {
+    position: fixed;
+    overflow-wrap: break-word;
+    width: 20vw;
+    margin-top: 10vh;
+    margin-left: 0px;
+    padding: 0;
+}
+
+.Contents a {
+    padding: 0;
+    text-decoration: none;
+    font-size: 30px;
+    color: #ffd60a;
+    display: block;
+    justify-self: left;
+    margin: 0;
+  }
+
+
+  
+.Contents a:hover {
+    color: #000000;
+    background-color: #ffd60a;
+}
+
+hr {
+    border-top: 0.15em solid white;
+    border-radius: 100%;
+    padding: 0;
+    margin: 0;
+}
+.Continuous h1{
+    grid-column: 2;
+    grid-row: 1;
+}
+
+
+
+
+
+
+
+
+.Sec1{
+    grid-column: 2;
+    grid-row: 2;
+}
+
+.Sec2{
+    grid-column: 2;
+    grid-row: 3;
+}
+
+
+
+
+@media screen and (max-width: 1080px) {
+    .banner{
+        white-space: break-spaces;
+        width: 100%;
+    }
+
+    nav{
+        height: 8em;
+    }
+
+    nav a{
+        font-size: 2.5em;
+    }
+
+    #Laws_img{
+        height:10em;
+        border: 1em solid #ddd;
+        border-radius: 4em;
+    }
+
+    #Malware_img{
+        height:10em;
+        border: 1em solid #ddd;
+        border-radius: 4em;
+    }
+    #Encryption_img{
+        height:10em;
+        border: 1em solid #ddd;
+        border-radius: 4em;
+    }
+    #CySec_img{
+        height:10em;
+        border: 1em solid #ddd;
+        border-radius: 4em;
+    }
+
+
+    #CySec{
+        width: 90vw;
+    }
+    #Encryption{
+        width: 90vw;
+    }
+
+    #Malware{
+        width: 90vw;
+    }
+    #Laws{
+        width: 90vw;
+    }
+}
